@@ -1,5 +1,3 @@
-# src/insights/process_insights.py
-
 import openai
 import os
 from dotenv import load_dotenv
