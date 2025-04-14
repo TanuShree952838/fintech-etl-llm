@@ -3,6 +3,6 @@
       "builder": "nixpacks"
     },
     "deploy": {
-      "startCommand": "uvicorn src.main:app --host 0.0.0.0 --port $PORT"
+      "startCommand": "uvicorn fintech_data_pipeline.main:app --host 0.0.0.0 --port $PORT"
     }
   }
